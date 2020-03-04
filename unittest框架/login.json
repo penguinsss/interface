@@ -1,0 +1,23 @@
+[
+  {
+    "username": "18682971383",
+    "password": "123321",
+    "verify_code": "8888",
+    "status": 1,
+    "expect": "登陆成功"
+  },
+  {
+    "username": "18682971111",
+    "password": "123321",
+    "verify_code": "8888",
+    "status": -1,
+    "expect": "账号不存在"
+  },
+  {
+    "username": "18682971383",
+    "password": "123456",
+    "verify_code": "8888",
+    "status": -2,
+    "expect": "密码错误"
+  }
+]
